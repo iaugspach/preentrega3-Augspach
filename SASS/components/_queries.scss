@@ -1,0 +1,46 @@
+@media only screen and (max-width: 800px) {
+    .menu {
+        display: none;
+    }
+    .menuFooter {
+        display: none;
+    }
+    .menuFooterRedes{
+        display: none;
+    }
+    iframe{
+        width: 7°;
+    }
+    img {
+        width: max-content;
+        align-items: center;
+        margin: 10px;
+    }
+
+    .grid-container, .contact{
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        gap: 0px;
+        row-gap: 0px;
+    }
+
+    .contact{
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+    .grid-item, .contact{
+        justify-self: center;
+        align-self: center;
+    }
+
+    Footer {
+        height: 100px;
+    }
+
+    th, td {
+        padding: 5px;
+      }
+      table {
+        padding: 10px;
+}
+  }

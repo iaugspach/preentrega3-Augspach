@@ -1,0 +1,101 @@
+section{
+    text-align: center;
+    margin-top: 50px;
+}
+
+iframe{
+    width: max-content;
+}
+
+p {
+    font-family: 'Lora', serif;
+    text-align: justify;
+   }
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: xx-large;
+   }
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 20px;
+   }
+
+button{
+    background-color: #C6EFEE;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+button:hover{
+    transform: scale(1.25,1.25);
+}
+
+iframe {
+    margin: 20px;
+}
+
+
+/* Home */
+
+.grid-container{
+    display: grid;
+    gap: 40px;
+    row-gap: 70px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    justify-content: center;
+    margin: 50px;
+    padding: 30px;
+}
+.grid-item{
+    justify-self: center;
+    align-self: center;
+}
+
+/* Contacto */
+.contact{
+    display: grid;
+    gap: 40px;
+    row-gap: 70px;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    justify-content: center;
+    margin: 50px;
+    padding: 30px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.form-control {
+    margin: 15px;
+    font-family: 'Lora', serif;
+    text-align: center;
+}
+
+/* Eventos*/
+table {
+    font-family: 'Lora', serif;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    padding: 15px;
+  }
